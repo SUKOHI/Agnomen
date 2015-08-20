@@ -14,21 +14,7 @@ Add this package name in composer.json
 Execute composer command.
 
     composer update
-
-Register the service provider in app.php
-
-    'providers' => [
-        ...Others...,  
-        Sukohi\Agnomen\AgnomenServiceProvider::class,
-    ]
-
-Also alias
-
-    'aliases' => [
-        ...Others...,  
-        'Agnomen'   => Sukohi\Agnomen\Facades\Agnomen::class
-    ]
-
+    
 Usage
 ====
 
