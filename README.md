@@ -71,7 +71,8 @@ then add your validation rules there like this.
         ];
     }
 
-Now if your application respond error messages, `:attribute` will be replaced with `$attribute_names` values. See [here](http://laravel.com/docs/5.1/validation#custom-error-messages) for the details
+Now if your application respond error messages, `:attribute` will be replaced with `$attribute_names` values.  
+See [here](http://laravel.com/docs/5.1/validation#custom-error-messages) for the details
 
 e.g.)  
   
