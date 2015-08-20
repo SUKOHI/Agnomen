@@ -25,11 +25,11 @@ At first, add AgnomenTrait to `App/Http/Requests/Request.php` like this.
     namespace App\Http\Requests;
     
     use Illuminate\Foundation\Http\FormRequest;
-    use Sukohi\Agnomen;
+    use Sukohi\Agnomen\AgnomenTrait;
     
     abstract class Request extends FormRequest
     {
-        use Agnomen\AgnomenTrait;
+        use AgnomenTrait;
     
         private $attribute_names = [
             'email' => 'YOUR-TEXT-1',
